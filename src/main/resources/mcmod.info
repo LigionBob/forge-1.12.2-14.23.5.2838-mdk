@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "cryingblocks",
+  "name": "Crying Blocks",
+  "description": "You might hear a slight squeal when you go mining.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["LigionBob"],
+  "credits": "LigionBob : Main Author",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
