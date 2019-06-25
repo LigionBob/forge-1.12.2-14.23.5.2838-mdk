@@ -1,7 +1,7 @@
 package ligionbob.cryingblocks.proxy;
 
-public class CommonProxy {
-    public void registerRenders() {
+import net.minecraft.item.Item;
 
-    }
+public class CommonProxy {
+    public void registerItemRenderer(Item item, int meta, String id) {}
 }

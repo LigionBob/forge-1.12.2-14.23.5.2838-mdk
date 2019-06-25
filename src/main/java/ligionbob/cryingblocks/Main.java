@@ -1,7 +1,7 @@
 package ligionbob.cryingblocks;
 
 import ligionbob.cryingblocks.proxy.CommonProxy;
-import ligionbob.cryingblocks.utils.Logging;
+import ligionbob.cryingblocks.utils.Utils;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -19,10 +19,10 @@ public class Main {
     @Mod.EventHandler
     public static void preInit(FMLPreInitializationEvent event) {
         proxy.registerRenders();
-        Logging.getLogger().info("Pre Init finished.");
+        Utils.getLogger().info("Pre Init finished.");
     }
     @Mod.EventHandler
     public static void init(FMLInitializationEvent event) {
-        Logging.getLogger().info("Init Finished.");
+        Utils.getLogger().info("Init Finished.");
     }
 }
