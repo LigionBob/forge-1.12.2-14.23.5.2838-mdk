@@ -1,115 +1,191 @@
-[11:05:07] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/ligionbob/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[11:05:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[11:05:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[11:05:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[11:05:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[11:05:07] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
-[11:05:07] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_212, running on Linux:amd64:5.0.21-1-MANJARO, installed at /usr/lib/jvm/java-8-openjdk/jre
-[11:05:07] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[11:05:07] [main/ERROR] [FML]: Full: /home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
-[11:05:07] [main/ERROR] [FML]: Trimmed: /home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[11:05:07] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[11:05:07] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[11:05:07] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[11:05:07] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[11:05:07] [main/INFO] [FML]: Searching /home/ligionbob/Desktop/forge-1.12.2-14.23.5.2838-mdk/run/./mods for mods
-[11:05:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[11:05:07] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[11:05:07] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[11:05:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:05:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[11:05:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[11:05:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:05:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[11:05:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:05:08] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[11:05:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[11:05:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[11:05:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[11:05:08] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[11:05:08] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[11:05:08] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[11:05:08] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player762
-[11:05:10] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[11:05:10] [Client thread/INFO] [FML]: -- System Details --
+[00:37:31] [main/INFO] [GradleStart]: Extra: []
+[00:37:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, /home/ligionbob/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[00:37:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:37:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:37:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[00:37:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[00:37:32] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
+[00:37:32] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_212, running on Linux:amd64:4.19.26-03278-g71dc68f9c9d0, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[00:37:33] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[00:37:33] [main/ERROR] [FML]: Full: /home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar
+[00:37:33] [main/ERROR] [FML]: Trimmed: /home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[00:37:33] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[00:37:33] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[00:37:35] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[00:37:35] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[00:37:35] [main/INFO] [FML]: Searching /home/ligionbob/IdeaProjects/forge-1.12.2-14.23.5.2838-mdk/run/./mods for mods
+[00:37:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[00:37:35] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[00:37:35] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[00:37:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:37:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:37:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[00:37:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:37:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[00:37:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:37:38] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[00:37:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[00:37:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[00:37:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[00:37:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:37:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[00:37:39] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[00:37:42] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player114
+[00:37:53] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[00:37:53] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[00:37:58] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
-	Operating System: Linux (amd64) version 5.0.21-1-MANJARO
+	Operating System: Linux (amd64) version 4.19.26-03278-g71dc68f9c9d0
 	Java Version: 1.8.0_212, Oracle Corporation
 	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 565083856 bytes (538 MB) / 653787136 bytes (623 MB) up to 3720871936 bytes (3548 MB)
+	Memory: 405962736 bytes (387 MB) / 496500736 bytes (473 MB) up to 2539126784 bytes (2421 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
-	GL info: ' Vendor: 'X.Org' Version: '4.5 (Compatibility Profile) Mesa 19.0.6' Renderer: 'AMD Radeon (TM) Pro WX 7100 Graphics (POLARIS10, DRM 3.27.0, 5.0.21-1-MANJARO, LLVM 8.0.0)'
-[11:05:10] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2838 Initialized
-[11:05:10] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[11:05:10] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[11:05:10] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[11:05:10] [Client thread/INFO] [FML]: Searching /home/ligionbob/Desktop/forge-1.12.2-14.23.5.2838-mdk/run/./mods for mods
-[11:05:11] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[11:05:11] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, cryingblocks] at CLIENT
-[11:05:11] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, cryingblocks] at SERVER
-[11:05:11] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Crying Blocks
-[11:05:12] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[11:05:12] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[11:05:12] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[11:05:12] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[11:05:12] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[11:05:12] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[11:05:12] [Client thread/INFO] [cryingblocks]: Pre Init finished.
-[11:05:12] [Client thread/INFO] [FML]: Applying holder lookups
-[11:05:12] [Client thread/INFO] [FML]: Holder lookups applied
-[11:05:12] [Client thread/INFO] [FML]: Applying holder lookups
-[11:05:12] [Client thread/INFO] [FML]: Holder lookups applied
-[11:05:12] [Client thread/INFO] [FML]: Applying holder lookups
-[11:05:12] [Client thread/INFO] [FML]: Holder lookups applied
-[11:05:12] [Client thread/INFO] [FML]: Applying holder lookups
-[11:05:12] [Client thread/INFO] [FML]: Holder lookups applied
-[11:05:12] [Client thread/INFO] [FML]: Injecting itemstacks
-[11:05:12] [Client thread/INFO] [FML]: Itemstack injection complete
-[11:05:12] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[11:05:12] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[11:05:12] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[11:05:12] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[11:05:12] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[11:05:13] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[11:05:13] [Client thread/INFO] [FML]: Max texture size: 16384
-[11:05:13] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[11:05:14] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 93264377 nanos
-[11:05:14] [Client thread/INFO] [FML]: Applying holder lookups
-[11:05:14] [Client thread/INFO] [FML]: Holder lookups applied
-[11:05:14] [Client thread/INFO] [cryingblocks]: Init Finished.
-[11:05:14] [Client thread/INFO] [FML]: Injecting itemstacks
-[11:05:14] [Client thread/INFO] [FML]: Itemstack injection complete
-[11:05:14] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[11:05:14] [Client thread/WARN] [com.mojang.text2speech.NarratorLinux]: ERROR : Couldn't load Narrator library : Unable to load library 'fliteWrapper': Native library (linux-x86-64/libfliteWrapper.so) not found in resource path ([file:/home/ligionbob/.gradle/caches/minecraft/deobfedDeps/compileDummy.jar, file:/home/ligionbob/.gradle/caches/minecraft/deobfedDeps/providedDummy.jar, file:/home/ligionbob/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2838/snapshot/20171003/forgeSrc-1.12.2-14.23.5.2838.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.1/f7be08ec23c21485b9b5a1cf1654c2ec8c58168d/jsr305-3.0.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.mojang/patchy/1.1/aef610b34a1be37fa851825f12372b78424d8903/patchy-1.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/oshi-project/oshi-core/1.1/9ddf7b048a8d701be231c0f4f95fd986198fd2d8/oshi-core-1.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/4.4.0/cb208278274bf12ebdb56c61bd7407e6f774d65a/jna-4.4.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/platform/3.4.0/e3f70017be8100d3d6923f50b3d2ee17714e9c13/platform-3.4.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.ibm.icu/icu4j-core-mojang/51.2/63d216a9311cca6be337c1e458e587f99d382b84/icu4j-core-mojang-51.2.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.3/cdd846cfc4e0f7eefafc02c0f5dce32b9303aa2a/jopt-simple-5.0.3.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.9.Final/97860965d6a0a6b98e7f569f3f966727b8db75/netty-all-4.1.9.Final.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/21.0/3a3d111be1be1b745edfa7d91678a12d7ed38709/guava-21.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.10/4b95f4897fa13f2cd904aee711aeafc0c5295cd8/commons-codec-1.10.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.25/9834cdf236c22e84b946bba989e2f94ef5897c3c/authlib-1.5.25.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.10.22/bd0dccebdf3744c75f1ca20063f16e8f7d5e663f/realms-1.10.22.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/it.unimi.dsi/fastutil/7.1.0/9835253257524c1be7ab50c057aa2d418fb72082/fastutil-7.1.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.8.1/e801d13612e22cad62a3f4f3fe7fdbe6334a8e72/log4j-api-2.8.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.8.1/4ac28ff2f1ddf05dae3043a190451e8c46b73c31/log4j-core-2.8.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.10.3/48fd510879dff266c3815947de66e3d4809f8668/text2speech-1.10.3.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.12/111e7bea9c968cdb3d06ef4632bf7ff0824d0f36/launchwrapper-1.12.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.jline/jline/3.5.1/51800e9d7a13608894a5a28eed0f5c7fa2f300fb/jline-3.5.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.2/3354e11e2b34215f06dab629ab88e06aca477c19/asm-debug-all-5.2.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/f771f71fdae3df231bcd54d5ca2d57f0bf93f467/config-1.2.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors-migration_2.11/1.1.0/dfa8bc42b181d5b9f1a5dd147f8ae308b893eb6f/scala-actors-migration_2.11-1.1.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-compiler/2.11.1/56ea2e6c025e0821f28d73ca271218b8dd04926a/scala-compiler-2.11.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-library_2.11/1.0.2/e517c53a7e9acd6b1668c5a35eccbaa3bab9aac/scala-continuations-library_2.11-1.0.2.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang.plugins/scala-continuations-plugin_2.11.1/1.0.2/f361a3283452c57fa30c1ee69448995de23c60f7/scala-continuations-plugin_2.11.1-1.0.2.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.1/e11da23da3eabab9f4777b9220e60d44c1aab6a/scala-library-2.11.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-parser-combinators_2.11/1.0.1/f05d7345bf5a58924f2837c6c1f4d73a938e1ff0/scala-parser-combinators_2.11-1.0.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.1/6580347e61cc7f8e802941e7fde40fa83b8badeb/scala-reflect-2.11.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-swing_2.11/1.0.1/b1cdd92bd47b1e1837139c1c53020e86bb9112ae/scala-swing_2.11-1.0.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang.modules/scala-xml_2.11/1.0.2/820fbca7e524b530fdadc594c39d49a21ea0337e/scala-xml_2.11-1.0.2.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4/maven-artifact-3.5.3.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.paulscode/codecjorbis/20101023/c73b5636faf089d9f00e8732a829577de25237ee/codecjorbis-20101023.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.paulscode/codecwav/20101023/12f031cfe88fef5c1dd36c563c0a3a69bd7261da/codecwav-20101023.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.paulscode/libraryjavasound/20101123/5c5e304366f75f9eaa2e8cca546a1fb6109348b3/libraryjavasound-20101123.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.paulscode/librarylwjglopenal/20100824/73e80d0794c39665aec3f62eee88ca91676674ef/librarylwjglopenal-20100824.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/com.paulscode/soundsystem/20120107/419c05fe9be71f792b2d76cfc9b67f1ed0fec7f6/soundsystem-20120107.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.4-nightly-20150209/697517568c68e78ae0b4544145af031c81082dfe/lwjgl-2.9.4-nightly-20150209.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.4-nightly-20150209/d51a7c040a721d13efdfbd34f8b257b2df882ad0/lwjgl_util-2.9.4-nightly-20150209.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.5.2/79846ba34cbd89e2422d74d53752f993dcc2ccaf/vecmath-1.5.2.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/ca.weblite/java-objc-bridge/1.0.0/6ef160c3133a78de015830860197602ca1c855d3/java-objc-bridge-1.0.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-actors/2.11.0/8ccfb6541de179bb1c4d45cf414acee069b7f78b/scala-actors-2.11.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-utils/3.1.0/60eecb6f15abdb1c653ad80abaac6fe188b3feaa/plexus-utils-3.1.0.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/b84d5102b9dbfabfeb5e43c7e2828d98a7fc80e0/lwjgl-platform-2.9.4-nightly-20150209-natives-windows.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/931074f46c795d2f7b30ed6395df5715cfd7675b/lwjgl-platform-2.9.4-nightly-20150209-natives-linux.jar, file:/home/ligionbob/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.4-nightly-20150209/bcab850f8f487c3f4c4dbabde778bb82bd1a40ed/lwjgl-platform-2.9.4-nightly-20150209-natives-osx.jar, file:/home/ligionbob/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.5.2838/start/, file:/home/ligionbob/Desktop/forge-1.12.2-14.23.5.2838-mdk/build/libs/modid-1.0.jar, asmgen:/])
-[11:05:23] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[11:05:52] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[11:05:52] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[11:05:52] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[11:05:52] [Server thread/INFO] [FML]: Applying holder lookups
-[11:05:52] [Server thread/INFO] [FML]: Holder lookups applied
-[11:05:52] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@203d11b0)
-[11:05:52] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[11:05:52] [Server thread/WARN] [net.minecraft.world.WorldServer]: Unable to find spawn biome
-[11:05:53] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@203d11b0)
-[11:05:53] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@203d11b0)
-[11:05:53] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[11:05:53] [Server thread/INFO] [FML]: Unloading dimension -1
-[11:05:54] [Server thread/INFO] [FML]: Unloading dimension 1
-[11:05:54] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[11:05:54] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[11:05:54] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[11:05:54] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2838,cryingblocks@0.0.1,mcp@9.42
-[11:05:54] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[11:05:54] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[11:05:54] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player762[local:E:486f65bd] logged in with entity id 0 at (440.5, 56.0, 61.5)
-[11:05:54] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player762 joined the game
-[11:05:55] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[11:05:55] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[11:05:55] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@7a38c717[id=6be062b2-d5f9-3e2d-be7e-7d0540b46d78,name=Player762,properties={},legacy=false]
+	GL info: ' Vendor: 'VMware, Inc.' Version: '3.0 Mesa 13.0.6' Renderer: 'Gallium 0.4 on llvmpipe (LLVM 3.9, 256 bits)'
+[00:37:58] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2838 Initialized
+[00:37:58] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[00:37:59] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[00:38:00] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[00:38:01] [Client thread/INFO] [FML]: Searching /home/ligionbob/IdeaProjects/forge-1.12.2-14.23.5.2838-mdk/run/./mods for mods
+[00:38:06] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[00:38:07] [Thread-3/INFO] [FML]: Using alternative sync timing : 200 frames of Display.update took 4850734233 nanos
+[00:38:08] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, cryingblocks] at CLIENT
+[00:38:08] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, cryingblocks] at SERVER
+[00:38:11] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Crying Blocks
+[00:38:12] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[00:38:12] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[00:38:12] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[00:38:12] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[00:38:12] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[00:38:12] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[00:38:12] [Client thread/INFO] [cryingblocks]: Pre Init finished.
+[00:38:12] [Client thread/INFO] [FML]: Applying holder lookups
+[00:38:12] [Client thread/INFO] [FML]: Holder lookups applied
+[00:38:12] [Client thread/INFO] [FML]: Applying holder lookups
+[00:38:12] [Client thread/INFO] [FML]: Holder lookups applied
+[00:38:12] [Client thread/INFO] [FML]: Applying holder lookups
+[00:38:12] [Client thread/INFO] [FML]: Holder lookups applied
+[00:38:12] [Client thread/INFO] [FML]: Applying holder lookups
+[00:38:12] [Client thread/INFO] [FML]: Holder lookups applied
+[00:38:12] [Client thread/INFO] [FML]: Injecting itemstacks
+[00:38:12] [Client thread/INFO] [FML]: Itemstack injection complete
+[00:38:12] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[00:38:17] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[00:38:17] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[00:38:17] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[00:38:18] [Thread-4/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[00:38:18] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[00:38:27] [Client thread/INFO] [FML]: Max texture size: 8192
+[00:38:29] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[00:38:31] [Client thread/ERROR] [FML]: Exception loading model for variant cryingblocks:jar_of_tears#inventory for item "cryingblocks:jar_of_tears", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model cryingblocks:item/jar_of_tears with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.i[00:38:33] [Client thread/INFO] [FML]: Max texture size: 8192
+[00:38:35] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[00:38:38] [Client thread/ERROR] [FML]: Exception loading model for variant cryingblocks:jar_of_tears#inventory for item "cryingblocks:jar_of_tears", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model cryingblocks:item/jar_of_tears with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:302) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: cryingblocks:models/item/jar_of_tears.json
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:69) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1400(ModelLoader.java:115) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:861) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[00:38:38] [Client thread/ERROR] [FML]: Exception loading model for variant cryingblocks:jar_of_tears#inventory for item "cryingblocks:jar_of_tears", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model cryingblocks:jar_of_tears#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:161) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:296) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:151) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:560) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:422) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMeth[00:38:38] [Client thread/INFO] [com.mojang.text2speech.NarratorLinux]: Narrator library successfully loaded
+[00:38:41] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_212]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_212]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_212]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_212]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1175) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:157) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[00:38:41] [Client thread/INFO] [FML]: Applying holder lookups
+[00:38:41] [Client thread/INFO] [FML]: Holder lookups applied
+[00:38:41] [Client thread/INFO] [cryingblocks]: Init Finished.
+[00:38:41] [Client thread/INFO] [FML]: Injecting itemstacks
+[00:38:41] [Client thread/INFO] [FML]: Itemstack injection complete
+[00:38:42] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[00:38:42] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[00:38:42] [Client thread/INFO] [com.mojang.text2speech.NarratorLinux]: Narrator library successfully loaded
+[00:38:45] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[00:39:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[00:39:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[00:39:22] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[00:39:23] [Server thread/INFO] [FML]: Applying holder lookups
+[00:39:23] [Server thread/INFO] [FML]: Holder lookups applied
+[00:39:23] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@6b2b8210)
+[00:39:24] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[00:39:25] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@6b2b8210)
+[00:39:25] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@6b2b8210)
+[00:39:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[00:39:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 46%
+[00:39:27] [Server thread/INFO] [FML]: Unloading dimension -1
+[00:39:27] [Server thread/INFO] [FML]: Unloading dimension 1
+[00:39:27] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[00:39:30] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[00:39:30] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[00:39:30] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2838,cryingblocks@0.0.1,mcp@9.42
+[00:39:30] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[00:39:30] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[00:39:30] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player107[local:E:f9b9ad7d] logged in with entity id 0 at (440.5, 56.0, 61.5)
+[00:39:30] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player107 joined the game
+[00:39:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[00:39:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:39:40] [pool-2-thread-1/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@23a0ffe1[id=eed453d8-1b3a-3fa3-9fc5-1cf433d73521,name=Player107,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
@@ -131,18 +207,17 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_212]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_212]
 	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_212]
-[11:06:03] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[11:06:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[11:06:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[11:06:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[11:06:04] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Player762 lost connection: Disconnected
-[11:06:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player762 left the game
-[11:06:04] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Stopping singleplayer server as player logged out
-[11:06:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[11:06:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[11:06:04] [Server thread/INFO] [FML]: Unloading dimension 0
-[11:06:04] [Server thread/INFO] [FML]: Applying holder lookups
-[11:06:04] [Server thread/INFO] [FML]: Holder lookups applied
-[11:06:05] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[11:06:05] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[11:06:05] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[00:39:41] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[00:39:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:40:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[00:40:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:40:50] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[00:40:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[00:40:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[00:40:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[00:40:50] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[00:40:50] [Server thread/INFO] [FML]: Unloading dimension 0
+[00:40:51] [Server thread/INFO] [FML]: Applying holder lookups
+[00:40:51] [Server thread/INFO] [FML]: Holder lookups applied
+[00:40:51] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[00:40:51] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
