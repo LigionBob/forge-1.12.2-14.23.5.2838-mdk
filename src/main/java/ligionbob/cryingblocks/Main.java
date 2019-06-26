@@ -18,7 +18,6 @@ public class Main {
 
     @Mod.EventHandler
     public static void preInit(FMLPreInitializationEvent event) {
-        proxy.registerRenders();
         Utils.getLogger().info("Pre Init finished.");
     }
     @Mod.EventHandler
